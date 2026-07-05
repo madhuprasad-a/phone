@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvIp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="16dp"
+        android:text="IP: ..." />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingBottom="24dp"
+        android:text="Status: idle" />
+
+    <Button
+        android:id="@+id/btnMirror"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Screen Mirror Server (port 5001)" />
+
+    <Button
+        android:id="@+id/btnFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Start File Server (port 5002)" />
+
+    <Button
+        android:id="@+id/btnClipboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Start Clipboard Sync (port 5003)" />
+
+</LinearLayout>

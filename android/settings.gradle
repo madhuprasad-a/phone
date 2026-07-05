@@ -1,0 +1,2 @@
+rootProject.name = "MirrorSync"
+include ':app'
