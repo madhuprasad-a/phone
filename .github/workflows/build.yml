@@ -22,7 +22,7 @@ jobs:
         uses: android-actions/setup-android@v3
 
       - name: Generate Gradle wrapper
-        working-directory: android
+        working-directory: MirrorSync/android
         run: gradle wrapper --gradle-version 8.5
 
       - name: Build debug APK
