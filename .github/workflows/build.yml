@@ -26,7 +26,7 @@ jobs:
         run: gradle wrapper --gradle-version 8.5
 
       - name: Build debug APK
-        working-directory: android
+        working-directory: MirrorSync/android
         run: ./gradlew assembleDebug --no-daemon
 
       - name: Upload APK
